@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Digital Agency",
+        "picture": "./static/assets/img/agency.png",
+        "url": "https://pgm-jamevanw.github.io/digital-agency/",
+        "github": "https://github.com/pgm-jamevanw/digital-agency",
+        "href": "./projects/agency.html"
+    },
+    {
+        "name": "She Code Africa",
+        "picture": "./static/assets/img/africa.png",
+        "url": "https://pgm-jamevanw.github.io/sheCode-africa/",
+        "github": "https://github.com/pgm-jamevanw/sheCode-africa",
+        "href": "./projects/africa.html"
+    },
+    {
+        "name": "BiSH (challenge)",
+        "picture": "./static/assets/img/bish.png",
+        "url": "https://pgm-jamevanw.github.io/BiSH-challenge/",
+        "github": "https://github.com/pgm-jamevanw/BiSH-challenge",
+        "href": "./projects/bish.html"
+    },
+    {
+        "name": "Afstudeer Projecten",
+        "picture": "./static/assets/img/afstudeer.png",
+        "url": "https://pgmgent-pgm-1.github.io/afstudeerprojecten-pgm-jamevanw/",
+        "github": "https://github.com/pgmgent-pgm-1/afstudeerprojecten-pgm-jamevanw",
+        "href": "./projects/afstudeer.html"
+    },
+    {
+        "name": "Schrauwen Groen",
+        "picture": "./static/assets/img/schrauwen.png",
+        "url": "https://pgmgent-atwork-1.github.io/opdracht-1-schrauwen-groen-pgm-jamevanw/",
+        "github": "https://github.com/pgmgent-atwork-1/opdracht-1-schrauwen-groen-pgm-jamevanw",
+        "href": "./projects/schrauwen.html"
+    },
+    {
+        "name": "Gentse Feesten",
+        "picture": "./static/assets/img/gentseFeesten.png",
+        "url": "https://pgmgent-atwork-1.github.io/opdracht-2-gentse-feesten-2022-pgm-jamevanw/",
+        "github": "https://github.com/pgmgent-atwork-1/opdracht-2-gentse-feesten-2022-pgm-jamevanw",
+        "href": "./projects/gentseFeesten.html"
+    },
+    {
+        "name": "CV",
+        "picture": "./static/assets/img/cv.png",
+        "url": "https://pgm-jamevanw.github.io/UID-MijnCV/",
+        "github": "https://github.com/pgm-jamevanw/UID-MijnCV",
+        "href": "./projects/cv.html"
+    }
+]

@@ -5,6 +5,27 @@
     --var-black: #090909;
 }
 
+/* width */
+::-webkit-scrollbar {
+    height: .375rem;
+    width: .3125rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(102, 51, 153, 0.349);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--var-purple);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(56, 29, 83);
+}
+
 html {
     font-family: var(--var-poppins);
 }
@@ -258,6 +279,7 @@ body {
     flex-wrap: wrap;
     gap: 3.125rem;
     width: 100%;
+    justify-content: center;
 }
 
 .skill {
@@ -301,15 +323,70 @@ body {
 .skill--progress-bar {
     width: 0;
     background-color: rebeccapurple;
-    animation: fill-progress 3s ease forwards;
 }
 
-@keyframes fill-progress {
+// .w80 {
+//     animation: fill-progress80 3s ease forwards;
+// }
+
+// .w70 {
+//     animation: fill-progress70 3s ease forwards;
+// }
+
+// .w60 {
+//     animation: fill-progress60 3s ease forwards;
+// }
+
+// .w50 {
+//     animation: fill-progress50 3s ease forwards;
+// }
+
+// .w30 {
+//     animation: fill-progress30 3s ease forwards;
+// }
+
+@keyframes fill-progress80 {
+    from {
+        width: 0
+    }
+    to {
+        width: 80%;
+    }
+}
+
+@keyframes fill-progress70 {
     from {
         width: 0
     }
     to {
         width: 70%;
+    }
+}
+
+@keyframes fill-progress60 {
+    from {
+        width: 0
+    }
+    to {
+        width: 60%;
+    }
+}
+
+@keyframes fill-progress50 {
+    from {
+        width: 0
+    }
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes fill-progress30 {
+    from {
+        width: 0
+    }
+    to {
+        width: 30%;
     }
 }
 
@@ -356,6 +433,141 @@ body {
     100% {
         transform: translateX(-90%); /* Move the services all the way to the left */
     }
+}
+
+.mywork {
+    padding-bottom: 9.375rem;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 3.125rem;
+    overflow-x: scroll;
+    width: 100%;
+    padding: 3.125rem 1.25rem;
+}
+
+.project {
+    min-width: calc(40% - 50px);
+    padding: 1.875rem;
+    background-color: white;
+    border-radius: .625rem;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+}
+
+.project--body {
+    background-color: white;
+    border-radius: 0 0 .9375rem .9375rem;
+    padding-top: .9375rem;
+}
+
+.project--content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.875rem;
+}
+
+.project--content span {
+    font-size: 1.2rem;
+}
+
+.github--btn {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--var-black);
+    padding: .3125rem;
+    width: 7.5rem;
+    font-size: .8125rem;
+    border-radius: .9375rem;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.github--btn svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: -0.3125rem;
+    fill: white;
+}
+
+.project--buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: .9375rem;
+    margin-bottom: .3125rem;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.flex {
+    justify-content: initial;
+}
+
+.project--buttons div {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: .9375rem;
+}
+
+.project--button {
+    text-decoration: none;
+    background-color: var(--var-purple);
+    color: white;
+    padding: .3125rem;
+    width: 6.25rem;
+    font-size: .8125rem;
+    border-radius: .9375rem;
+}
+
+.project--title,
+.project--subtitle {
+    text-align: center;
+    color: var(--var-purple);
+    margin-bottom: .9375rem;
+}
+
+.project--subtitle {
+    text-align: left;
+    margin-top: 2.5rem;
+}
+
+.project--title {
+    font-size: 3rem;
+}
+
+.project--subtitle {
+    font-size: 1.6rem;
+}
+
+
+
+.footer--container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    padding: 1.875rem;
+    text-align: center;
+    border-top: .0625rem solid var(--var-black);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2.0625rem;
+    align-items: center;
+}
+
+.footer--text {
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .form--section {
