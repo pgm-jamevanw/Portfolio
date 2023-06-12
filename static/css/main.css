@@ -526,6 +526,11 @@ body {
     border-radius: .9375rem;
 }
 
+.project--detail p {
+    width: 60%;
+    text-align: justify;
+}
+
 .project--title,
 .project--subtitle {
     text-align: center;
